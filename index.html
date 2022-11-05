@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>REGISTER</title>
+    </head>
+    <body bgcolor="skyblue">
+        <h1 style="text-align: center;">REGISTER</h1>
+        <br>
+        <hr size="8" color="red">
+        <br>
+        <form style="text-align:center ;border-radius: 0ch;" name="registration" onsubmit="return formvalidation()">
+            <input type="text" name="fname" placeholder="FIRST NAME">
+            <br><br>
+            <input type="text" name="lname" placeholder="LAST NAME">
+            <br><br>
+            <input type="number" name="pno" placeholder="PHONE NO">
+            <br><br>
+            <input type="email" name="email" placeholder="EMAIL">
+            <br><br>
+            <input type="text" name="country" placeholder="COUNTRY">
+            <br><br>
+            <input type="text" name="role" placeholder="ROLE">
+            <br><br>
+            <input type="date" name="dob" placeholder="DOB">
+            <br><br>
+            <input type="text" name="npass" placeholder="NEW PASS">
+            <br><br>
+            <input type="text" name="cpass" placeholder="CONFRIM">
+            <br>
+        </form>
+        <script>
+            function formvalidation(){
+                var fname=document.registration.fname;
+                var lname=document.registration.lname;
+                var pno=document.registration.no;
+                var email=document.registration.email;
+                var country=document.registration.country;
+                var role=document.registration.role;
+                var dob=document.registration.dob;
+                var npass=document.registration.npass;
+                var cpass=document.registration.cpass;
+            
+        </script>
+    </body>
+</html>
